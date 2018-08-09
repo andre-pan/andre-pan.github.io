@@ -26,4 +26,5 @@ function ToggleNightMode (){
 function ToggleHamburger (){
     document.getElementById("Hamburger").classList.toggle("change");
     document.getElementById("MobileNav").classList.toggle("d-none");
+    document.getElementById("MainPage").classList.toggle("d-none");
 }

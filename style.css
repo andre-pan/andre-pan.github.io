@@ -41,6 +41,7 @@
   position: fixed;
   top: 1em;
   left: 1em;
+  z-index: 100;
 }
 
 .bar1, .bar2, .bar3 {
