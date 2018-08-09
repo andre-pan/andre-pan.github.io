@@ -1,9 +1,23 @@
-.Page{
+.Page:not(#PageOne) {
     display: none;   
 }
 
+#MainPage {
+    -webkit-transition: 1s;
+    transition: 1s;
+}
 
+.Shown{
+    z-index: 50;
+    opacity: 1;
+    height: initial;
+}
 
+.Hidden{
+    z-index: 0;
+    opacity: 0;
+    height: 0;
+}
 
 /* NAVBAR */
 .LeftNav{
@@ -27,9 +41,11 @@
 }
 
 /* MOBILE NAVBAR */
-#MobileNav{
-  position: fixed;
-  display: flex;
+#MobileNav {
+    position: fixed;
+    display: flex;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 .NavMobi{
   display: block;

@@ -23,8 +23,17 @@ function ToggleNightMode (){
 
 }
 
+function ToggleShownHidden(id) {
+    var item = document.getElementById(id);
+    item.classList.toggle("Shown");
+    item.classList.toggle("Hidden");
+}
+
 function ToggleHamburger (){
     document.getElementById("Hamburger").classList.toggle("change");
-    document.getElementById("MobileNav").classList.toggle("d-none");
-    document.getElementById("MainPage").classList.toggle("d-none");
+    ToggleShownHidden("MobileNav");
+    ToggleShownHidden("MainPage");
+
+    //document.getElementById("MobileNav").classList.toggle("d-none");
+    //document.getElementById("MainPage").classList.toggle("d-none");
 }
