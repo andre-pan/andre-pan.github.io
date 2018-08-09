@@ -1,1 +1,113 @@
-<h1>Hello World</h1>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+    <div class="row">
+        <nav id="LeftNav" class="LeftNav col-4 d-none d-md-flex">
+            <div id="NavItem-PageOne" class="NavItem" onclick="DisplayPage(this)">
+                HOME
+            </div>
+            <div id="NavItem-PageTwo" class="NavItem" onclick="DisplayPage(this)">
+                EMPOWR
+            </div>
+            <div id="NavItem-PageThree" class="NavItem" onclick="DisplayPage(this)">
+                LUMA APP
+            </div>
+            <div id="NavItem-PageFour" class="NavItem" onclick="DisplayPage(this)">
+                PORTFOLIO
+            </div>
+            <div id="NavItem-PageFive" class="NavItem" onclick="DisplayPage(this)">
+                ABOUT ME
+            </div>
+        </nav>
+        <div class="col-8">
+
+            <!-- LANDING PAGE -->
+            <div id="PageOne" class="Page">
+                <h1>PAGE ONE</h1>
+            </div>
+
+            <!-- PROJECT ONE -->
+            <div id="PageTwo" class="Page">
+                <h1>PAGE TWO</h1>
+
+            </div>
+
+            <!-- PROJECT TWO -->
+            <div id="PageThree" class="Page">
+                <h1>PAGE THREE</h1>
+
+            </div>
+            <!-- PROJECT THREE -->
+
+            <div id="PageFour" class="Page">
+                <h1>PAGE FOUR</h1>
+
+            </div>
+
+            <!-- ABOUT PAGE -->
+            <div id="PageFive" class="Page">
+                <h1>PAGE FIVE</h1>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="PageData" data-CurrentPageID="PageOne"></div>
+    <!-- MOBILE HAMBURGER NAV -->
+    <div id="Hamburger" class="d-md-none container" onclick="ToggleHamburger(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+
+    <div id="MobileNav" class="container-fluid LeftNav d-none">
+        <div id="NavMobi-PageOne" class="NavMobi" onclick="DisplayPageMobile(this)">
+            HOME
+        </div>
+        <div id="NavMobi-PageTwo" class="NavMobi" onclick="DisplayPageMobile(this)">
+            EMPOWR
+        </div>
+        <div id="NavMobi-PageThree" class="NavMobi" onclick="DisplayPageMobile(this)">
+            LUMA APP
+        </div>
+        <div id="NavMobi-PageFour" class="NavMobi" onclick="DisplayPageMobile(this)">
+            PORTFOLIO
+        </div>
+        <div id="NavMobi-PageFive" class="NavMobi" onclick="DisplayPageMobile(this)">
+            ABOUT ME
+        </div>
+    </div>
+
+    <!-- NIGHTMODE TOGGLE -->
+    <div id="NightModeToggle"></div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
