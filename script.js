@@ -37,3 +37,9 @@ function ToggleHamburger (){
     //document.getElementById("MobileNav").classList.toggle("d-none");
     //document.getElementById("MainPage").classList.toggle("d-none");
 }
+
+function ToggleNightMode() {
+    ToggleShownHidden("NightModeSun");
+    ToggleShownHidden("NightModeMoon");
+
+}

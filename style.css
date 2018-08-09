@@ -81,3 +81,18 @@
 }
 
 /* NIGHTMODE */
+#NightModeToggle{
+    position: absolute;
+    top: 1em;
+    right: 3em;
+}
+
+.fa-sun{
+    color: gold;
+}
+
+.NightModeIcon {
+    position: absolute;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}

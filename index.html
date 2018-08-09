@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
           crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,15 +22,9 @@
                     HOME
                 </div>
                 <div id="NavItem-PageTwo" class="NavItem" onclick="DisplayPage(this)">
-                    EMPOWR
+                    TIMELINE
                 </div>
                 <div id="NavItem-PageThree" class="NavItem" onclick="DisplayPage(this)">
-                    LUMA APP
-                </div>
-                <div id="NavItem-PageFour" class="NavItem" onclick="DisplayPage(this)">
-                    PORTFOLIO
-                </div>
-                <div id="NavItem-PageFive" class="NavItem" onclick="DisplayPage(this)">
                     ABOUT ME
                 </div>
             </nav>
@@ -68,7 +63,7 @@
     </div>
     <div id="PageData" data-CurrentPageID="PageOne"></div>
     <!-- MOBILE HAMBURGER NAV -->
-    <div id="Hamburger" class="d-md-none container" onclick="ToggleHamburger()">
+    <div id="Hamburger" class="d-md-none" onclick="ToggleHamburger()">
         <div class="bar1"></div>
         <div class="bar2"></div>
         <div class="bar3"></div>
@@ -79,21 +74,20 @@
             HOME
         </div>
         <div id="NavMobi-PageTwo" class="NavMobi" onclick="DisplayPageMobile(this)">
-            EMPOWR
+            TIMELINE
         </div>
         <div id="NavMobi-PageThree" class="NavMobi" onclick="DisplayPageMobile(this)">
-            LUMA APP
-        </div>
-        <div id="NavMobi-PageFour" class="NavMobi" onclick="DisplayPageMobile(this)">
-            PORTFOLIO
-        </div>
-        <div id="NavMobi-PageFive" class="NavMobi" onclick="DisplayPageMobile(this)">
             ABOUT ME
         </div>
     </div>
 
     <!-- NIGHTMODE TOGGLE -->
-    <div id="NightModeToggle"></div>
+    <div id="NightModeToggle">
+        <i id="NightModeSun" class="fas fa-sun fa-2x Shown NightModeIcon" onclick="ToggleNightMode()"></i>
+        <i id="NightModeMoon" class="far fa-moon fa-2x Hidden NightModeIcon" onclick="ToggleNightMode()"></i>
+
+
+    </div>
 
 
 
