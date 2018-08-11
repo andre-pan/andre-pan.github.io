@@ -7,6 +7,27 @@
     transition: 1s;
 }
 
+#PageOne {
+    text-align: center;
+    margin-top: 10em;
+}
+
+    #PageOne h1 {
+        font-size: 3em;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+    }
+
+    @media only screen and (max-width:767px){
+        #PageOne h1{
+            font-size: 1em;
+        }
+    }
+
+#PageOne .row .col-md-4{
+    margin: 0.5em 0;
+}
+
 .Shown{
     z-index: 50;
     opacity: 1;
@@ -21,16 +42,18 @@
 
 /* NAVBAR */
 .LeftNav{
-    text-align: center; flex-direction: column; height: 100vh; justify-content: center;
+    text-align: center; 
+    flex-direction: column; 
+    height: 100vh; 
+    justify-content: center; 
+    display: flex;
 }
 
 .NavItem{
   margin-top: 1em;
   margin-bottom: 1em;
   transition: 0.3s ease;
-
   font-size: 20px;
-
 }
 
 .NavItem:hover{

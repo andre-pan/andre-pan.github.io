@@ -11,13 +11,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
           crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Kanit:200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
     <div id="MainPage" class="container-fluid shown">
         <div class="row">
-            <nav id="LeftNav" class="LeftNav col-4 d-none d-md-flex">
+            <nav id="LeftNav" class="LeftNav col-2 d-none d-md-flex" style="border-right: 2px solid grey;">
                 <div id="NavItem-PageOne" class="NavItem" onclick="DisplayPage(this)">
                     HOME
                 </div>
@@ -28,11 +32,21 @@
                     ABOUT ME
                 </div>
             </nav>
-            <div class="col-8">
+            <div class="col-md-10">
 
                 <!-- LANDING PAGE -->
                 <div id="PageOne" class="Page">
-                    <h1>PAGE ONE</h1>
+                    <h1>Andre Pan / Software Developer</h1>
+                    <h1>Computer Science / Mathematics B.S.</h1>
+                    <h1>UC San Diego</h1>
+
+                    <div class="row" style="margin-top: 3em;">
+                        <div class="col-md-4" style="margin: 1.5em 0;">
+                            <img src="img/UCSanDiegoLogo-BlueGold.png" style="height: auto; width: 250px;"/>
+                        </div>
+                        <div class="col-md-4" style="font-size: 50px; font-family: 'Kanit', sans-serif; line-height:100%;">LUMA</div>
+                        <div class="col-md-4" style="font-size: 50px; font-family: 'Yanone Kaffeesatz', sans-serif; line-height: 100%;">empowr</div>
+                    </div>
                 </div>
 
                 <!-- PROJECT ONE -->
