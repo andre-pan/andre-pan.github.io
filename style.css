@@ -35,8 +35,8 @@
 
 
 /* About me */
-#PageFive{
-    margin-top: 20%;
+#PageThree{
+    margin-top: 5%;
 }
 .Shown{
     z-index: 50;
@@ -51,12 +51,18 @@
 }
 
 /* EXPERIENCE */
+.Experience-Item{
+    margin-top: 2em;
+}
+
 .Experience-Title{
     font-size: 18px;
     font-weight: bold;
+    margin-bottom: 0;
 }
 
 .Experience-Location{
+    margin-bottom: 0.5em;
     color: dimgray;
 }
 
