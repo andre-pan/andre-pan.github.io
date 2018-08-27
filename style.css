@@ -2,14 +2,7 @@
     display: none;   
 }
 
-#MainPage {
-    -webkit-transition: 1s;
-    transition: 1s;
-}
-
-
-
-
+/* Animation for name + job title in welcome page */
 .animate-reveal {
     font: bold 1.5em sans-serif;
     text-transform: uppercase;
@@ -109,6 +102,8 @@
               transform: translateY(0);
     }
   }
+
+  /* animation welcome page end */
 
 #PageOne {
     text-align: center;
