@@ -38,16 +38,20 @@
 
                 <!-- LANDING PAGE -->
                 <div id="PageOne" class="Page">
-                    <h1>Andre Pan / Software Developer</h1>
-                    <h1>Computer Science / Mathematics B.S.</h1>
-                    <h1>UC San Diego</h1>
+                    <h1 class="animate-reveal animate-first">Andre Pan / Software Developer</h1>
+                    <h1 class="animate-reveal animate-second">Computer Science / Mathematics B.S.</h1>
+                    <h1 class="animate-reveal animate-third">UC San Diego</h1>
 
                     <div class="row" style="margin-top: 3em;">
                         <div class="col-md-4" style="margin: 1.5em 0;">
-                            <img src="img/UCSanDiegoLogo-BlueGold.png" style="height: auto; width: 250px;" />
+                            <img src="img/UCSanDiegoLogo-BlueGold.png" style="height: auto; 
+                            width: 250px;" />
                         </div>
-                        <div class="col-md-4" style="font-size: 50px; font-family: 'Kanit', sans-serif; line-height:100%;">LUMA</div>
-                        <div class="col-md-4" style="font-size: 50px; font-family: 'Yanone Kaffeesatz', sans-serif; line-height: 100%; color:#3b5998;">empowr</div>
+                        <div class="col-md-4" style="font-size: 50px; cursor: default;
+                        font-family: 'Kanit', sans-serif; line-height:100%;">LUMA</div>
+                        <div class="col-md-4" style="font-size: 50px; cursor: default;
+                        font-family: 'Yanone Kaffeesatz', sans-serif; line-height: 100%; 
+                        color:#3b5998;">empowr</div>
                     </div>
                 </div>
 
@@ -175,9 +179,64 @@
 
                 <!-- ABOUT PAGE -->
                 <div id="PageThree" class="Page">
-                    <h1>ABOUT ME</h1>
-                    <div class="d-md-none" style="margin-top:20%;"></div>
+                    <div class="container">
+                        <div class="d-md-none" style="margin-top:20%;"></div>
+                        <div class="ProfileImgWrapper">
+                            <img src="img/ProfileImg.png" class="ProfileImg" />
+                        </div>
+                        <p>
+                            Software developer passionate about new technologies looking for full-time software/web development position. Experience
+                            with full stack web development with a focus on front end. Interested in new opportunities.
+                        </p>
+                        <p>
+                            In my free time I enjoy scrolling through the latest tech articles, cooking new recipes, and playing the occasional game
+                            of League of Legends (washed up Diamond player).
+                        </p>
+                        <hr>
+                        <h5 style="text-align: center; ">ANDRE PAN</h5>
+                        <div id="MobiContactInfo" class="d-md-none">
+                            <a href="mailto:andre.pan.coding@gmail.com">
+                                <i class="fas fa-2x fa-envelope pointer contact-icon"></i>
+                                <a href="mailto:andre.pan.coding@gmail.com"></a>
 
+                                <a href="https://www.linkedin.com/in/pan-andre">
+                                    <i class="fab fa-2x fa-linkedin-in pointer contact-icon"></i>
+                                </a>
+
+                                <a href="https://github.com/andre-pan">
+                                    <i class="fab fa-2x fa-github pointer contact-icon"></i>
+                                </a>
+
+                                <a href="https://andre-pan.github.io/img/Andre_Pan_Resume.pdf">
+                                    <i class="fas fa-2x fa-file-pdf pointer contact-icon"></i>
+                                </a>
+                        </div>
+                        <div id="ContactInfo" class="d-none d-md-block">
+                            <a href="mailto:andre.pan.coding@gmail.com">
+                                <i class="fas fa-envelope pointer contact-icon">
+                                    <span class="contact-text"> andre.pan.coding@gmail.com</span>
+                                </i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/pan-andre" target="_blank">
+                                <i class="fab fa-linkedin-in pointer contact-icon">
+                                    <span class="contact-text"> https://www.linkedin.com/in/pan-andre</span>
+                                </i>
+                            </a>
+                            <br>
+                            <a href="https://github.com/andre-pan" target="_blank">
+                                <i class="fab fa-github pointer contact-icon">
+                                    <span class="contact-text"> https://github.com/andre-pan</span>
+                                </i>
+                            </a>
+
+                            <a href="https://andre-pan.github.io/img/Andre_Pan_Resume.pdf" target="_blank">
+                                <i class="fas fa-file-pdf pointer contact-icon">
+                                    <span class="contact-text"> Resume</span>
+                                </i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -203,15 +262,10 @@
     </div>
 
     <!-- NIGHTMODE TOGGLE -->
-    <div id="NightModeToggle">
+    <div id="NightModeToggle" class="pointer">
         <i id="NightModeSun" class="fas fa-sun fa-2x Shown NightModeIcon" onclick="ToggleNightMode()"></i>
         <i id="NightModeMoon" class="far fa-moon fa-2x Hidden NightModeIcon" onclick="ToggleNightMode()"></i>
-
-
     </div>
-
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
