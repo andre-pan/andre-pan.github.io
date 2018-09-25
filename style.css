@@ -4,6 +4,16 @@
 
 body{
     overflow-y: scroll;
+    --color-primary-light: rgb(240,240,240);
+    --color-primary-dark: rgb(10,10,10);
+    background-color: var(--color-primary-light);
+    color: var(--color-primary-dark);
+ 
+}
+
+.nightmode {
+  --color-primary-light: rgb(10,10,10);
+  --color-primary-dark: rgb(240,240,240);
 }
 
 .currentPage{
@@ -265,7 +275,7 @@ body{
 
 .Experience-Location {
     margin-bottom: 0.5em;
-    color: dimgray;
+    color: var(--color-primary-dark);;
 }
 
 .Experience-Skills {
@@ -300,8 +310,8 @@ body{
 }
 
 .NavItem:hover {
-    border-top: 4px solid black;
-    border-bottom: 4px solid black;
+    border-top: 4px solid var(--color-primary-dark);;
+    border-bottom: 4px solid var(--color-primary-dark);;
     padding: 6px 0;
     cursor: pointer;
 }
@@ -335,7 +345,7 @@ body{
 .bar3 {
     width: 35px;
     height: 5px;
-    background-color: #333;
+    background-color: var(--color-primary-dark);
     margin: 6px 0;
     transition: 0.4s;
 }

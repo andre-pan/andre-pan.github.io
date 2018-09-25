@@ -50,5 +50,6 @@ function ToggleHamburger (){
 function ToggleNightMode() {
     ToggleShownHidden("NightModeSun");
     ToggleShownHidden("NightModeMoon");
+    document.body.classList.toggle('nightmode');
 
 }
