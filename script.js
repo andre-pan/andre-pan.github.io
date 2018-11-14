@@ -47,7 +47,7 @@ function ToggleHamburger (){
     //document.getElementById("MainPage").classList.toggle("d-none");
 }
 
-function ToggleNightMode() {
+function ToggleNightMode() { //toggles nightmode via css variables. set new variable value with class nightmode toggle
     ToggleShownHidden("NightModeSun");
     ToggleShownHidden("NightModeMoon");
     document.body.classList.toggle('nightmode');
