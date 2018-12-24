@@ -1,0 +1,144 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("whineyImg/bg.jpg");
+}
+
+
+#photoDiv{
+                            
+}
+
+.carousel-item img{
+    width: 60% !important;
+}
+
+.carousel-control-prev{
+    left: 20%;
+}
+
+.carousel-control-next {
+    right: 20%;
+}
+
+.flower {
+    opacity: 0;
+    animation: appear 2s forwards;
+    animation-delay: 7s; /* 7s*/
+}
+#textDiv p {
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 3em;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 30px;
+}
+
+#flowerOne {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 400px;
+    width: auto;
+}
+
+#flowerTwo {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    height: 300px;
+    width: auto;
+
+}
+
+#flowerThree {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    height: 400px;
+    width: auto;
+}
+
+#flowerFour {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 400px;
+    width: auto;
+}
+
+#flowerFive {
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
+    height: 300px;
+    width: auto;
+}
+
+
+#flowerSix {
+    position: absolute;
+    top: 20px;
+    left: 40%;
+    height: 250px;
+    width: auto;
+}
+
+#textOne {
+    opacity: 0;
+    animation: appear 2s forwards;
+    animation-delay: 1s;
+}
+#textTwo {
+    opacity: 0;
+    animation: appear 2s forwards;
+    animation-delay: 3s;
+}
+#textThree {
+    opacity: 0;
+    animation: appear 2s forwards;
+    animation-delay: 5s;
+}
+#textFour {
+    opacity: 0;
+    animation: appear 2s forwards;
+    animation-delay: 9s;
+}
+#textFive {
+    opacity: 0;
+    animation: appear 2s forwards;
+    animation-delay: 11s;
+}
+
+
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
