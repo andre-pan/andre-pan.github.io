@@ -18,7 +18,10 @@ function App() {
         <Router>
           <TopNav/>
           <Switch>
-            <Route exact path="/" component={HomePage}/>
+            <Route exact path="/">
+              <Redirect to="/home"/>
+            </Route>
+            <Route path="/home" component={HomePage}/>
             {/* <Route path="/" component={AboutMePage}/> */}
             <Route path="/experience" component={ExperiencePage}/>
             <Route path="/about" component={AboutMePage}/>
