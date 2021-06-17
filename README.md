@@ -1,5 +1,5 @@
 # npm install
-# uses gh pages. to deploy build to gh pages branch: npm run deploy
+# uses gh pages. build first, then to deploy build to gh pages branch: npm run deploy
 
 # Getting Started with Create React App
 
