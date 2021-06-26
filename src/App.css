@@ -72,3 +72,14 @@ h1{
   object-fit: cover;
   border-radius: 50%;
 }
+.footer{
+  position: absolute;
+  display: flex;
+  bottom: 0;
+}
+
+.footer-item{
+  margin: 2rem;
+  text-decoration: none;
+  position: relative;
+}

@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import TopNav from './components/nav/TopNav';
+import Footer from './components/footer/Footer';
 import HomePage from './pages/Home';
 import AboutMePage from './pages/AboutMe';
 import ExperiencePage from './pages/Experience';
@@ -26,6 +27,7 @@ function App() {
             <Route path="/experience" component={ExperiencePage}/>
             <Route path="/about" component={AboutMePage}/>
           </Switch>
+          <Footer/>
         </Router>
       </header>
     </div>
