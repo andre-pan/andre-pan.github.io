@@ -65,3 +65,10 @@ h1{
   max-width: 100%;
   height: auto;
 }
+
+.profile-img{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
