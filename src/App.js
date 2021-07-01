@@ -14,10 +14,12 @@ import ExperiencePage from './pages/Experience';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Router>
+    <div className="App flex-column">    
+      <Router>
+        <header className="App-header">
           <TopNav/>
+        </header>
+        <main>
           <Switch>
             <Route exact path="/">
               <Redirect to="/home"/>
@@ -27,9 +29,9 @@ function App() {
             <Route path="/experience" component={ExperiencePage}/>
             <Route path="/about" component={AboutMePage}/>
           </Switch>
-          <Footer/>
-        </Router>
-      </header>
+        </main>
+        <Footer/>
+      </Router>
     </div>
   );
 }
