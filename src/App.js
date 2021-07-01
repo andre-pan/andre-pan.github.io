@@ -25,7 +25,6 @@ function App() {
               <Redirect to="/home"/>
             </Route>
             <Route path="/home" component={HomePage}/>
-            {/* <Route path="/" component={AboutMePage}/> */}
             <Route path="/experience" component={ExperiencePage}/>
             <Route path="/about" component={AboutMePage}/>
           </Switch>

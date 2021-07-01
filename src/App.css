@@ -64,6 +64,20 @@ h1{
   font-weight: 300;
 }
 
+.blinking-cursor{
+  animation: blink 0.5s linear alternate infinite;
+  opacity: 0;
+}
+
+@keyframes blink{
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .flex-column{
   display: flex;
   flex-direction: column;
@@ -80,6 +94,7 @@ h1{
 .flex-center{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .responsive-img{
